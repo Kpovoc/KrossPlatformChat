@@ -1,4 +1,4 @@
-package kross.data.user
+package kross.user
 
 import java.util.*
 

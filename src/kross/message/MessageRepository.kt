@@ -1,4 +1,4 @@
-package kross.data.message
+package kross.message
 
 import java.util.*
 

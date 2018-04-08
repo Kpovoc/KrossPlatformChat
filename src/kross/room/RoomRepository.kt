@@ -1,4 +1,4 @@
-package kross.data.room
+package kross.room
 
 import java.util.*
 

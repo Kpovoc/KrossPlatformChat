@@ -1,8 +1,8 @@
-package kross.data.room
+package kross.room
 
-import kross.data.message.Message
-import kross.data.Platform
-import kross.data.user.User
+import kross.message.Message
+import kross.Platform
+import kross.user.User
 import java.util.*
 
 data class Room(

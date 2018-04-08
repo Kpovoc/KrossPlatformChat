@@ -1,4 +1,4 @@
-package kross.data
+package kross
 
 enum class Platform(val platform: String) {
   KROSS("Kross"),
