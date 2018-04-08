@@ -1,4 +1,4 @@
-package kross.data
+package kross.data.message
 
 import java.time.LocalDateTime
 import java.util.*
