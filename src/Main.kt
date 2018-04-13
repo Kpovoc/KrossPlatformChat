@@ -1,3 +1,6 @@
+import terminal.TerminalApp
+
 fun main(args: Array<String>) {
-  println("Hello World!")
+  App.initialize()
+  TerminalApp.start()
 }

@@ -28,3 +28,4 @@ db/kross.db
 .idea/
 *.iml
 out/
+build/

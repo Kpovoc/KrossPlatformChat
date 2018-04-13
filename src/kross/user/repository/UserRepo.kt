@@ -1,25 +1,26 @@
-package kross.room
+package kross.user.repository
 
+import kross.user.User
 import java.util.*
 
-interface RoomRepository {
+interface UserRepo {
   /**
-   * Adds a new Room to storage.
+   * Adds a new User to repos.
    * Returned `String` contains error information if failed.
    */
-  fun create(room: Room) : String
+  fun create(user: User) : String
   /**
-   * Reads a `Room` from storage by its [id].
+   * Reads a `User` from repos by their [id].
    * Returned `String` contains error information if failed.
    */
-  fun read(id: UUID) : Room
+  fun read(id: UUID) : User
   /**
-   * Updates a `Room` in storage.
+   * Updates a `User` in repos.
    * Returned `String` contains error information if failed.
    */
-  fun update(room: Room) : String
+  fun update(user: User) : String
   /**
-   * Deletes a `Room` from storage by its [id].
+   * Deletes a `User` from repos by their [id].
    * Returned `String` contains error information if failed.
    */
   fun delete(id: UUID) : String
